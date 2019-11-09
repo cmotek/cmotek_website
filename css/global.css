@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.wrapper {
+    background: url(../images/final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow: scroll;
+}
+
+.banner {
+    background-color:darkslategray;
+    max-width: 100%;
+    height: 50px;
+    z-index: 2;
+    position: fixed;
+}
