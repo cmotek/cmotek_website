@@ -25,8 +25,32 @@ body {
 }
 
 .logo {
-    width: 85%;
-    margin-top: -21%;
-    margin-left: -10%;
-    z-index: 3;
+    width: 45%;
+    margin-top: -8%;
+    margin-left: 12%;
+    position: absolute;
+}
+
+.nav {
+    padding: 0;
+    text-align: center;
+    margin-top: 8.5%;
+}
+
+li {
+    display: inline;
+}
+
+ li a {
+    color: white;
+    text-align: center;
+    padding: 14px 38px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75vw;
+    text-shadow: 1px 1px orange;
+}
+
+li a:hover {
+   
 }
