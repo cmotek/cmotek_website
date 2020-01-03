@@ -48,9 +48,14 @@ li {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.75vw;
-    text-shadow: 1px 1px orange;
+    text-shadow: 1px 1px 4px orange;
 }
 
 li a:hover {
-   
+    color: aqua;
+    text-shadow: 2px 2px 4px white;
+}
+
+li a:active {
+    color: white;
 }
