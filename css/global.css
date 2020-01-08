@@ -59,3 +59,16 @@ li a:hover {
 li a:active {
     color: white;
 }
+
+#dx {
+    height: 75%;
+}
+
+#tx {
+    width: 20%;
+    margin-top: -3%;
+}
+
+#cx {
+    margin-top: 35.5%;
+}
