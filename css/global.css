@@ -22,13 +22,15 @@ body {
     position: fixed;
     bottom: 0px;
     z-index: 2;
+    overflow: scroll;
 }
 
 .logo {
     width: 45%;
-    margin-top: -8%;
+    margin-top: 30%;
     margin-left: 12%;
     position: absolute;
+    z-index: 3;
 }
 
 .nav {
@@ -66,7 +68,8 @@ li a:active {
 
 #tx {
     width: 20%;
-    margin-top: -3%;
+    margin-top: 10.5%;
+    z-index: 3;
 }
 
 #cx {
