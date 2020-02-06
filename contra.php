@@ -86,8 +86,8 @@ require('constant.php');
 </head>
 <body>
 <div class="wrapper">
-<a href="index.html"><img id="tx" class="logo" src="images/cmotek.png"></a>	   
-<div id="dx" class="banner">
+<a href="index.html"><img id="tx" class="logo" src="images/cmotek.png"></a>   
+<div id="dx" class="banner"> 
     <div id="central">
 	<div class="content">
 		<h1>Contact Form</h1>
@@ -123,7 +123,7 @@ require('constant.php');
         <li><a href="forge.html">FORGE</a></li>
         <li><a href="study.html">DELVE</a></li>
         <li><a href="going.html">EVENT</a></li>
-        <li><a href="conta.php">CONTACT</a></li>
+        <li><a href="contra.php">CONTACT</a></li>
     </ul>
 </div>
 

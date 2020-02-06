@@ -1,17 +1,16 @@
 body {
-    margin: 0px;
-    margin: 0px;
-    overflow: hidden;
+    margin: 0;
+    overflow: auto;
 }
 
 .wrapper {
     background: url(../images/final.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position:absolute;
+    position: fixed;
     width:100%;
     height:100%;
-    z-index: 1;
+    overflow: auto;
 }
 
 .banner {
@@ -21,15 +20,20 @@ body {
     width: 100%;
     position: fixed;
     bottom: 0px;
-    z-index: 2;
     overflow: scroll;
 }
 
 .logo {
-    width: 45%;
-    margin-top: 30%;
+    width: 40vw;
     margin-left: 12%;
+    top: 60.5%;
     position: absolute;
+    z-index: 3;
+}
+
+#tx {
+    width: 20%;
+    top: 20%;
     z-index: 3;
 }
 
@@ -43,7 +47,7 @@ li {
     display: inline;
 }
 
- li a {
+li a {
     color: white;
     text-align: center;
     padding: 14px 38px;
@@ -66,12 +70,21 @@ li a:active {
     height: 75%;
 }
 
-#tx {
-    width: 20%;
-    margin-top: 10.5%;
-    z-index: 3;
-}
-
 #cx {
     margin-top: 20.5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        top: 62%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .logo {
+        top: 65%;
+    }
+    li a {
+        padding: 14px 19px;
+    }
 }
