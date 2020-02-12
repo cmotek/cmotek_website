@@ -71,20 +71,84 @@ li a:active {
 }
 
 #cx {
-    margin-top: 20.5%;
+    margin-top: 5.5%;
 }
+
+table {
+    color: orange;
+    margin-top: 5.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#trx {
+    text-align: left;
+    font-size: 24px;
+}
+
+#rtx {
+    text-align: right;
+    font-size: 24px;
+}
+
+#vrx {
+    text-align: left;
+    font-size: 13px;
+}
+
+#vtx {
+    text-align: right;
+    font-size: 13px;
+}
+
+#vrtx {
+    margin-top: 1.5%;
+}
+
+#readscript {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
 
 @media only screen and (max-width: 768px) {
     .logo {
-        top: 62%;
+        top: 62.5%;
     }
 }
 
 @media only screen and (max-width: 425px) {
     .logo {
-        top: 65%;
+        top: 67%;
     }
     li a {
         padding: 14px 19px;
+    }
+    #tx {
+        top: 23%;
     }
 }

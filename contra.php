@@ -121,7 +121,7 @@ require('constant.php');
 
     <ul id="cx" class="nav">
         <li><a href="forge.html">FORGE</a></li>
-        <li><a href="study.html">DELVE</a></li>
+        <li><a href="study.html">READING</a></li>
         <li><a href="going.html">EVENT</a></li>
         <li><a href="contra.php">CONTACT</a></li>
     </ul>
