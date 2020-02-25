@@ -45,43 +45,6 @@ require('constant.php');
 		}));
 	});
 	</script>
-
-	<style>
-	.label {margin: 2px 0;}
-	.field {margin: 0 0 20px 0;}	
-		.content {width: 960px;margin: 0 auto;}
-		h1, h2 {font-family:"Georgia", Times, serif;font-weight: normal;}
-		div#central {margin: 40px 0px 100px 0px;}
-		@media all and (min-width: 768px) and (max-width: 979px) {.content {width: 750px;}}
-		@media all and (max-width: 767px) {
-			body {margin: 0 auto;word-wrap:break-word}
-			.content {width:auto;}
-			div#central {	margin: 40px 20px 100px 20px;}
-		}
-		body {font-family: 'Helvetica',Arial,sans-serif;background:#ffffff;margin: 0 auto;-webkit-font-smoothing: antialiased;  font-size: initial;line-height: 1.7em;}	
-		input, textarea {width:100%;padding: 15px;font-size:1em;border: 1px solid #A1A1A1;	}
-		button {
-			padding: 12px 60px;
-			background: #5BC6FF;
-			border: none;
-			color: rgb(40, 40, 40);
-			font-size:1em;
-			font-family: "Georgia", Times, serif;
-			cursor: pointer;	
-		}
-		#message {  padding: 0px 40px 0px 0px; }
-		#mail-status {
-			padding: 12px 20px;
-			width: 100%;
-			display:none; 
-			font-size: 1em;
-			font-family: "Georgia", Times, serif;
-			color: rgb(40, 40, 40);
-		}
-	  .error{background-color: #F7902D;  margin-bottom: 40px;}
-	  .success{background-color: #48e0a4; }
-		.g-recaptcha {margin: 0 0 25px 0;}	  
-    </style>
     <script src='https://www.google.com/recaptcha/api.js'></script>	
 </head>
 <body>
@@ -89,9 +52,8 @@ require('constant.php');
 <a href="index.html"><img id="tx" class="logo" src="images/cmotek.png"></a>   
 <div id="dx" class="banner"> 
     <div id="central">
-	<div class="content">
-		<h1>Contact Form</h1>
-		<p>Send your comments through this form and we will get back to you. </p>
+	<div class="content" id="readscript">
+		<h1>CONTACT</h1>
 		<div id="message">
 		<form id="frmContact" action="" method="POST" novalidate="novalidate">
 			<div class="label">Name:</div>
@@ -101,10 +63,6 @@ require('constant.php');
 			<div class="label">Email:</div>
 			<div class="field">			
 				<input type="text" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
-			</div>
-			<div class="label">Phone Number:</div>
-			<div class="field">			
-				<input type="text" id="phone" name="phone" placeholder="enter your phone number here" title="Please enter your phone number" class="required phone" aria-required="true" required>
 			</div>
 			<div class="label">Comments:</div>
 			<div class="field">			
