@@ -25,7 +25,6 @@ require('constant.php');
 				data: {
 				"name":$('input[name="name"]').val(),
 				"email":$('input[name="email"]').val(),
-				"phone":$('input[name="phone"]').val(),
 				"content":$('textarea[name="content"]').val(),
 				"g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},				
 				success: function(response){
