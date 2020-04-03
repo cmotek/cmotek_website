@@ -167,7 +167,7 @@ table {
 }
 
 div #central {
-    margin: 40px 0px 100px 0px;
+    margin: 40px 0px 40px 0px;
     color: white;
 }
 
@@ -241,13 +241,48 @@ button {
 }
 
 @media only screen and (max-width: 425px) {
+    .wrapper {
+        background: none;
+        background-color: black;
+        }
     .logo {
-        top: 67%;
+        top: 10.5%;
+        width: 70vw;
+        margin-left: 16%;
+    }
+    .banner {
+        height: 75%;
+    }
+    li {
+        display: block;
     }
     li a {
         padding: 14px 19px;
+        font-size: 10vw;
     }
     #tx {
-        top: 23%;
+        top: 10%;
+        width: 70%;
+    }
+    #readscript {
+        font-size: 18px;
+        margin-top: 10%;
+    }
+    .card {
+        width: 80%;
+        float: none;
+        margin-left: 10%;
+    }
+
+    #rtx {
+        font-size: 13px;
+    }
+
+    #trx {
+        font-size: 13px;
+    }
+
+    div#central {
+        margin-bottom: 40px;
     }
 }
