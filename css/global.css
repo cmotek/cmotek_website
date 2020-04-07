@@ -119,6 +119,26 @@ table {
     text-justify: inter-word;
 }
 
+#forgeimg {
+    height: 400px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+}
+
+#hiccupimg {
+    width: 66%;
+    height: 175px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: center;
+    display: block;
+}
+
 /* CARDS */
 
 .card {
@@ -253,6 +273,11 @@ button {
     .banner {
         height: 75%;
     }
+
+    #forgeimg {
+        height: 150px;
+    }
+
     li {
         display: block;
     }
