@@ -31,7 +31,7 @@ body {
     z-index: 3;
 }
 
-#tx {
+#logo_responsive {
     width: 20%;
     top: 20%;
     z-index: 3;
@@ -66,11 +66,11 @@ li a:active {
     color: white;
 }
 
-#dx {
+#banner_responsive {
     height: 75%;
 }
 
-#cx {
+#nav_responsive {
     margin-top: 5.5%;
 }
 
@@ -83,27 +83,27 @@ table {
     font-family: 'Montserrat', sans-serif;
 }
 
-#trx {
+#title {
     text-align: left;
     font-size: 24px;
 }
 
-#rtx {
+#author {
     text-align: right;
     font-size: 24px;
 }
 
-#vrx {
+#subject {
     text-align: left;
     font-size: 13px;
 }
 
-#vtx {
+#year {
     text-align: right;
     font-size: 13px;
 }
 
-#vrtx {
+#wholetable {
     margin-top: 1.5%;
 }
 
@@ -285,7 +285,7 @@ button {
         padding: 14px 19px;
         font-size: 10vw;
     }
-    #tx {
+    #logo_responsive {
         top: 10%;
         width: 70%;
     }
@@ -299,11 +299,11 @@ button {
         margin-left: 10%;
     }
 
-    #rtx {
+    #author {
         font-size: 13px;
     }
 
-    #trx {
+    #title {
         font-size: 13px;
     }
 

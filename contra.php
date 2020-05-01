@@ -48,8 +48,8 @@ require('constant.php');
 </head>
 <body>
 <div class="wrapper">
-<a href="index.html"><img id="tx" class="logo" src="images/cmotek.png"></a>   
-<div id="dx" class="banner"> 
+<a href="index.html"><img id="logo_responsive" class="logo" src="images/cmotek.png"></a>   
+<div id="banner_responsive" class="banner"> 
     <div id="central">
 	<div class="content" id="readscript">
 		<h1>CONTACT</h1>
@@ -76,7 +76,7 @@ require('constant.php');
 	</div><!-- content -->
 </div><!-- central -->	
 
-    <ul id="cx" class="nav">
+    <ul id="nav_responsive" class="nav">
         <li><a href="forge.html">FORGE</a></li>
         <li><a href="study.html">READING</a></li>
         <li><a href="going.html">EVENT</a></li>
