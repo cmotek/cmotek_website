@@ -14,6 +14,7 @@ require('constant.php');
     <script>
 	$(document).ready(function (e){
 		$("#frmContact").on('submit',(function(e){
+			console.log("SANITY CHECK3")
 			e.preventDefault();
 			$("#mail-status").hide();
 			$('#send-message').hide();
@@ -28,6 +29,8 @@ require('constant.php');
 				"content":$('textarea[name="content"]').val(),
 				"g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},				
 				success: function(response){
+				console.log("I'm a response");
+				console.log(response);
 				$("#mail-status").show();
 				$('#loader-icon').hide();
 				if(response.type == "error") {
@@ -44,7 +47,13 @@ require('constant.php');
 		}));
 	});
 	</script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>	
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+       function onSubmit(token) {
+         document.getElementById("frmContact").submit();
+       }
+     </script>
+	
 </head>
 <body>
 <div class="wrapper">
@@ -69,12 +78,13 @@ require('constant.php');
 			</div>
 			<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>			
 			<div id="mail-status"></div>			
-			<button type="Submit" id="send-message" style="clear:both;">Send Message</button>
+			<button type="Submit" id="send-message" style="clear:both;" data-callback='onSubmit'>Send Message</button>
 		</form>
 		<div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
 		</div>		
 	</div><!-- content -->
 </div><!-- central -->	
+
 
     <ul id="nav_responsive" class="nav">
         <li><a href="forge.html">FORGE</a></li>
