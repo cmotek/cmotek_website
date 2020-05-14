@@ -61,26 +61,26 @@ require('constant.php');
 <div id="banner_responsive" class="banner"> 
     <div id="central">
 	<div class="content" id="readscript">
-		<h1>CONTACT</h1>
+		<div id="readscript"><p id="conheader">CONTACT</p></div>
 		<div id="message">
-		<form id="frmContact" action="" method="POST" novalidate="novalidate">
-			<div class="label">Name:</div>
-			<div class="field">
-				<input type="text" id="name" name="name" placeholder="enter your name here" title="Please enter your name" class="required" aria-required="true" required>
-			</div>
-			<div class="label">Email:</div>
-			<div class="field">			
-				<input type="text" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
-			</div>
-			<div class="label">Comments:</div>
-			<div class="field">			
-				<textarea id="comment-content" name="content" placeholder="enter your comments here"></textarea>			
-			</div>
-			<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>			
-			<div id="mail-status"></div>			
-			<button type="Submit" id="send-message" style="clear:both;" data-callback='onSubmit'>Send Message</button>
-		</form>
-		<div id="loader-icon" style="display:none;"><img src="img/loader.gif" /></div>
+			<form id="frmContact" action="" method="POST" novalidate="novalidate">
+				<div class="label">Name:</div>
+				<div class="field">
+					<input type="text" id="name" name="name" placeholder="enter your name here" title="Please enter your name" class="required" aria-required="true" required>
+				</div>
+				<div class="label">Email:</div>
+				<div class="field">			
+					<input type="text" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
+				</div>
+				<div class="label">Comments:</div>
+				<div class="field">			
+					<textarea id="comment-content" name="content" placeholder="enter your comments here"></textarea>			
+				</div>
+				<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>			
+				<div id="mail-status"></div>			
+				<button type="Submit" id="send-message" style="clear:both;" data-callback='onSubmit'>Send Message</button>
+			</form>
+			<div id="loader-icon" style="display:none;"><img src="images/loader.gif" /></div>
 		</div>		
 	</div><!-- content -->
 </div><!-- central -->	

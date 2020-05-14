@@ -119,6 +119,12 @@ table {
     text-justify: inter-word;
 }
 
+#conheader {
+    font-size: 45px;
+    margin-left: -70px;
+    margin-bottom: 20px;
+}
+
 #forgeimg {
     height: 400px;
     width: 80%;
@@ -309,5 +315,17 @@ button {
 
     div#central {
         margin-bottom: 40px;
+    }
+
+    #conheader {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .g-recaptcha {
+        transform:scale(0.75);
+        -webkit-transform:scale(0.67);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
     }
 }
